@@ -1,0 +1,91 @@
+/* Définition des styles généraux */
+
+body {
+    margin: 0;
+    color: white;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  button, input {
+    font-family: 'Inconsolata', monospace;
+  }
+  
+  /* Style pour le conteneur principal */
+  
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 140, 168);
+    height: 100vh;
+  }
+  
+  /* Style pour le titre */
+  
+  #main-title {
+    font-size: 3.125rem; /* 50px / 16px = 3.125rem */
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Style pour le contenu principal */
+  
+  #main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style pour l'entrée de texte et le bouton */
+  
+  #word-input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    padding: 0 20px;
+  }
+  
+  #submit-btn {
+    height: 50px;
+    width: 160px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(38, 57, 99);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  #submit-btn:hover {
+    background-color: rgb(11, 67, 188);
+  }
+  
+  /* Style pour la réponse */
+  
+  #reply-content {
+    font-size: 1.5625rem; /* 25px / 16px = 1.5625rem */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 217, 217);
+    height: 400px;
+    width: 1000px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  }
+  
